@@ -1,13 +1,13 @@
 #pragma once
 
-#include "mark.hpp"
 #include "board.hpp"
+#include "mark.hpp"
 
 class Player {
-    public:
-        Mark mark;
+ public:
+  Mark mark;
 
-        Player(Mark mark);
+  Player(Mark mark);
 
-        void place_mark(Board board);
+  void place_mark(Board board);
 };
